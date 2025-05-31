@@ -1,7 +1,7 @@
-name: sixhou3
+name: sixhou6
 on:
   schedule:
-    - cron: '32 5 */2 * *'
+    - cron: '32 5,13 */2 * *'
   workflow_dispatch:  # 允许手动触发
 jobs:
   build:
